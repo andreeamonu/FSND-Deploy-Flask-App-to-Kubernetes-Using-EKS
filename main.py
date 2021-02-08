@@ -16,11 +16,11 @@ LOG_LEVEL = os.environ.get('LOG_LEVEL', 'INFO')
 
 
 def _logger():
-    '''
+    """
     Setup logger format, level, and handler.
 
     RETURNS: log object
-    '''
+    """
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
     log = logging.getLogger(__name__)
