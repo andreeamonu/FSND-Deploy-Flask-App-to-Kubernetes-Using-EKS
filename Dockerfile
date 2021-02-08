@@ -1,5 +1,5 @@
 # define source image
-FROM python:stretch
+FROM python:3.7-stretch
 
 # setup app directory
 COPY . /app
